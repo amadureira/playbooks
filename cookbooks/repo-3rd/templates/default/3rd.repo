@@ -1,0 +1,20 @@
+[viavarejo-3rd-logtash]
+name=Elastic repository for 5.x packages
+baseurl=http://<%=@host%>/logstash/
+enabled=1
+gpgcheck=0
+proxy=<%=@proxy%>
+
+[viavarejo-3rd-zabbix]
+name=Elastic repository for 5.x packages
+baseurl=http://<%=@host%>/zabbix/
+enabled=1
+gpgcheck=0
+proxy=<%=@proxy%>
+
+[viavarejo-3rd-mongo]
+name=Elastic repository for 5.x packages
+baseurl=http://<%=@host%>/mongo_repo/
+enabled=1
+gpgcheck=0
+proxy=<%=@proxy%>

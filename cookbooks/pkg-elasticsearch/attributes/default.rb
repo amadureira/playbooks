@@ -1,0 +1,5 @@
+default['pkg-elasticsearch']['elastic_conf_main'] =  "default/elasticsearch.yml"
+default['pkg-elasticsearch']['elastic_conf_jvm'] =  "default/jvm.options"
+default['pkg-elasticsearch']['elastic_conf_log4'] =  "default/log4j2.properties"
+default['pkg-elasticsearch']['elastic_sysconfig'] =  "default/sysconfig_elasticsearch"
+default['pkg-elasticsearch']['elastic_port'] =  "9200"

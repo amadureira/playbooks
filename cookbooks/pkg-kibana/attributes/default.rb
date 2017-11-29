@@ -1,0 +1,5 @@
+default['pkg-kibana']['search_config'] = '*:*'
+default['pkg-kibana']['kibana_config'] = 'kibana.yml'
+default['pkg-kibana']['http_type'] = 'http'
+default['pkg-kibana']['kibana_port'] = '9200'
+default['pkg-kibana']['kibana_version'] = '5.6.2-1'
